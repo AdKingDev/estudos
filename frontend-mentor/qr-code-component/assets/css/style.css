@@ -73,10 +73,22 @@ article > p {
     color: var(--cor3);
 }
 
+footer {
+    width: 320px;
+    height: 1rem;
+
+    font-size: 13px;
+
+    margin: 5px;
+
+    background: #6e95ff7c;
+    border-radius: 10px;
+}
+
 footer > small > a {
     color: initial;
 }
 
 footer > small > a:hover {
-    color: hsl(228, 45%, 44%);
+    color: blue;
 }
